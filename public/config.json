@@ -1,0 +1,7 @@
+{
+  "greeting": "Hello",
+  "mastodon": "https://chaos.social/@tev",
+  "mail": "contact@example.com",
+  "bio": "Set your Bio here! You <b>also</b> can use line \\nbreaks and HTML here.",
+  "clojure-text": "Random ClojureScript-Function: "
+}

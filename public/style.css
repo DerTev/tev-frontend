@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
+.about {
+    white-space: break-spaces;
+}
+
+.feed-content {
+    margin-top: 30px;
+}
+
+.post {
+    background-color: #0c0c0c;
+    border-radius: 10px;
+    width: 40%;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: white;
+    text-decoration-line: grammar-error;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+#clojure-var {
+    margin-top: 100px;
+}
