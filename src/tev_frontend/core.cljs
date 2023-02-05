@@ -24,7 +24,7 @@
 
 (defn load-title []
   (let [title (.createElement js/document "title")]
-    (.setHTML title (:title @mdata))
+    (set! (.-innerHTML title) (:title @mdata))
     (.. js/document (querySelector "head") (appendChild title))))
 
 (defn ^:export init! []
